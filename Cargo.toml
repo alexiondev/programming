@@ -1,0 +1,8 @@
+[package]
+name = "programming"
+version = "0.0.1"
+edition = "2021"
+
+[[bin]]
+name = "programming"
+path = "rust/_main.rs"
