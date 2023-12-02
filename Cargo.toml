@@ -9,3 +9,4 @@ path = "rust/_main.rs"
 
 [dependencies]
 anyhow = "1.0.75"
+nom = "7.1.3"
