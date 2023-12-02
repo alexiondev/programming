@@ -2,7 +2,6 @@ use std::{
     fs::File,
     io::{prelude::*, BufReader},
 };
-use regex::Regex;
 
 use anyhow::{self, bail};
 

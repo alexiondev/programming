@@ -9,4 +9,3 @@ path = "rust/_main.rs"
 
 [dependencies]
 anyhow = "1.0.75"
-regex = "1.10.2"
