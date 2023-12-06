@@ -1,5 +1,6 @@
 mod aoc23_01;
 mod aoc23_02;
+mod aoc23_03;
 
 use std::env;
 
@@ -14,6 +15,8 @@ fn main() -> anyhow::Result<()>{
         ["aoc23", "1", "2"] => aoc23_01::problem2()?,
         ["aoc23", "2", "1"] => aoc23_02::problem1()?,
         ["aoc23", "2", "2"] => aoc23_02::problem2()?,
+        ["aoc23", "3", "1"] => aoc23_03::problem1()?,
+        ["aoc23", "3", "2"] => aoc23_03::problem2()?,
         _ => println!("Unknown problem!")
     }
 

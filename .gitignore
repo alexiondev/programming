@@ -29,3 +29,5 @@ cabal.project.local~
 
 # Rust
 target
+
+log.txt
